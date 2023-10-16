@@ -76,18 +76,10 @@ body {
     flex-grow: 1;
 }
 
-
-.cardRight {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    flex-grow: 0;
-    padding-left: 15px;
+.cardLeft p {
+    width: 100px;
 }
 
-.cardRight p {
-    margin-top: 100px;
-}
 
 #imgSquare {
     width: 100px;
