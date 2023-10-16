@@ -18,35 +18,38 @@
       </div>
       <div class="sneedCardForm">
         <p>Register today! Get your sneed card below!</p>
-        <form class="sneedRegister">
+        <form class="sneedRegister" id="sneedForm" >
           <label for="firstName">First Name</label>
           <input type="text" id="fname" name="fname" />
           <label for="lastName">Last Name</label>
           <input type="text" id="lname" name="lname" />
-          <label for="cardPhoto">Upload your photo!</label>
-          <input type="file" id="cardPhoto" />
-          <input type="submit" id="sneedSubmit" value="Get My Feed+ Card!">
+          <input type="submit" id="sneedSubmit" value="Get My Feed+ Card!" />
           <label for="sneedSubmit"></label>
         </form>
       </div>
       <div class="sneedCardContainer">
-      <div class="sneedCard">
-        <div class="cardLeft">
-        <div id="imgSquare"></div>
-        <p id="registerName">Your Name</p>
-        <p>Official Feed+ Member</p>
-    </div>
-    <div class="cardRight">
-        <h1>Sneed's Feed+</h1>
-        <p>"Experience the ultimate Sneed's Feed And Seed loyalty with Sneed's Feed+ membership – your gateway to a sneedier and happier life.</p>
-    </div>
+        <div class="sneedCard">
+          <div class="cardLeft">
+            <img id="imgSquare" src="images/Feed Logo.png">
+            <p id="registerName">Your Name</p>
+            <p>Official Feed+ Member</p>
+          </div>
+          <div class="cardRight">
+            <h1>Sneed's Feed+</h1>
+            <p>
+              "Experience the ultimate Sneed's Feed And Seed loyalty with
+              Sneed's Feed+ membership – your gateway to a sneedier and happier
+              life.
+            </p>
+          </div>
+        </div>
+        <button>Save My Sneed Card!</button>
       </div>
-      <button>Save My Sneed Card!</button>
+      <div class="footerContainer">
+        <p>Copyright Sneeds Feed & Seed!</p>
+        <img class="chuckandal" src="images/al&chuck.gif" />
+      </div>
     </div>
-    <div class="footerContainer">
-      <p>Copyright Sneeds Feed & Seed!</p>
-      <img class="chuckandal" src="images/al&chuck.gif">
-    </div>
-    </div>
+    <script src="sneedcard.js"></script>
   </body>
 </html>
