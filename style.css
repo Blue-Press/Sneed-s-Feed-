@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Ensure the body takes up the full viewport height */
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1; /* Allow this container to fill the remaining vertical space */
+}
+
+.headerContainer {
+    background-color: aquamarine;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.infoBar {
+    background-color: blue;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.sneedCardForm {
+    background-color: blueviolet;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px; 
+}
+
+.sneedCardForm form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.sneedCardContainer {
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-grow: 1; 
+    padding: 20px;
+}
+
+.sneedCard {
+    padding-left: 3px;
+    width: 505px;
+    height: 247px;
+    display: flex;
+    background-image: url(images/sfs_outside.png);
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.cardLeft {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    margin-right: 30px;
+}
+
+
+.cardRight {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 0;
+}
+
+.cardRight p {
+    margin-top: 100px;
+}
+
+#imgSquare {
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+}
