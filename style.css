@@ -3,9 +3,16 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh; /* Ensure the body takes up the full viewport height */
+    background-image: url(images/background.jpeg);
 }
 
 .mainContainer {
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -13,28 +20,27 @@ body {
 }
 
 .headerContainer {
-    background-color: aquamarine;
-    width: 100%;
+    background-color: rgba(0, 0, 0, 0.911);
+    width: 60%;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .infoBar {
-    background-color: blue;
-    width: 100%;
+    background-color: hsla(0, 0%, 50%, 0.911);
+    width: 60%;
     display: flex;
-    justify-content: center;
-    padding: 20px;
+    justify-content: center;    
 }
 
 .sneedCardForm {
-    background-color: blueviolet;
-    width: 100%;
+    background-color: hsla(0, 0%, 25%, 0.911);
+    width: 60%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 20px; 
 }
 
 .sneedCardForm form {
@@ -46,14 +52,13 @@ body {
 
 
 .sneedCardContainer {
-    width: 100%;
-    background-color: aqua;
+    width: 60%;
+    background-color: hsla(0, 0%, 50%, 0.911);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     flex-grow: 1; 
-    padding: 20px;
 }
 
 .sneedCard {
@@ -93,8 +98,8 @@ body {
 }
 
 .footerContainer {
-    background-color: blueviolet;
-    width: 100%;
+    background-color: rgba(0, 0, 0, 0.911);
+    width: 60%;
     display: flex;
     align-items: center;
     justify-content: center;
