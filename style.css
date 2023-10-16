@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap");
 
 body {
-    font-family: 'Noto Serif JP', serif;
+  font-family: "Noto Serif JP", serif;
   margin: 0;
   display: flex;
   flex-direction: column;
@@ -139,9 +139,8 @@ body {
 }
 
 #feedMember {
-    font-size:small;
+  font-size: small;
 }
-
 
 .sneedCardSaveButton {
   background-color: #000;
