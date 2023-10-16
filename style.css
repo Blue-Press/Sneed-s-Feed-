@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap');
+
 body {
+    font-family: 'Noto Serif JP', serif;
   margin: 0;
   display: flex;
   flex-direction: column;
@@ -25,9 +28,8 @@ body {
 }
 
 .headerText {
-    font-size: 50px;
+  font-size: 50px;
 }
-
 
 .infoBar {
   background-color: hsla(0, 0%, 50%, 0.911);
@@ -39,7 +41,7 @@ body {
 }
 
 .customerText {
-    font-size: larger;
+  font-size: larger;
 }
 
 .customerBar {
@@ -49,20 +51,18 @@ body {
 }
 
 .customerBox {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 .customerBox p {
-    border: 5px solid hsla(0, 0%, 0%, 0.911);
-    width: 200px;
-    border-top: none;
-    margin: 0;
-    margin-bottom: 20px;
-    text-align: center;
+  border: 5px solid hsla(0, 0%, 0%, 0.911);
+  width: 200px;
+  border-top: none;
+  margin: 0;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
 .customerPic {
@@ -90,13 +90,13 @@ body {
 }
 
 #sneedSubmit {
-    background-color: #000;
-    color: white;
-    margin: 10px;
+  background-color: #000;
+  color: white;
+  margin: 10px;
 }
 
 .sneedCardContainer {
-    padding-top: 20px;
+  padding-top: 20px;
   width: 60%;
   background-color: hsla(0, 0%, 50%, 0.911);
   display: flex;
@@ -138,10 +138,15 @@ body {
   text-wrap: nowrap;
 }
 
+#feedMember {
+    font-size:small;
+}
+
+
 .sneedCardSaveButton {
-    background-color: #000;
-    color: white;
-    margin: 10px;
+  background-color: #000;
+  color: white;
+  margin: 10px;
 }
 
 .footerContainer {
