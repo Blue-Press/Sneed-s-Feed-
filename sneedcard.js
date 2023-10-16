@@ -1,15 +1,15 @@
 function getFormInfo(event) {
-    event.preventDefault(); // Prevent the form from submitting
-    const firstName = document.getElementById("fname").value;
-    const lastName = document.getElementById("lname").value;
-  
-    const registerName = document.getElementById("registerName");
-    console.log(registerName);
-  
-    // Update the name in the original card (visible)
-    const visibleCardRegisterName = document.getElementById("registerName");
-    visibleCardRegisterName.innerHTML = firstName + " " + lastName;
-  }
+  event.preventDefault(); // Prevent the form from submitting
+  const firstName = document.getElementById("fname").value;
+  const lastName = document.getElementById("lname").value;
+
+  const registerName = document.getElementById("registerName");
+  console.log(registerName);
+
+  // Update the name in the original card (visible)
+  const visibleCardRegisterName = document.getElementById("registerName");
+  visibleCardRegisterName.innerHTML = firstName + " " + lastName;
+}
 
 const submitButton = document.getElementById("sneedSubmit");
 submitButton.addEventListener("click", getFormInfo);
