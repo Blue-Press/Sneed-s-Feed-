@@ -1,113 +1,159 @@
 body {
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    height: 100vh; /* Ensure the body takes up the full viewport height */
-    background-image: url(images/background.jpeg);
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Ensure the body takes up the full viewport height */
+  background-image: url(images/background.jpeg);
 }
 
 .mainContainer {
-    color: white;
-    text-shadow:
-    -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
     1px 1px 0 #000;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    flex-grow: 1; /* Allow this container to fill the remaining vertical space */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 1; /* Allow this container to fill the remaining vertical space */
 }
 
 .headerContainer {
-    background-color: rgba(0, 0, 0, 0.911);
-    width: 60%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background-color: rgba(0, 0, 0, 0.911);
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+.headerText {
+    font-size: 50px;
+}
+
+
 .infoBar {
-    background-color: hsla(0, 0%, 50%, 0.911);
-    width: 60%;
+  background-color: hsla(0, 0%, 50%, 0.911);
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.customerText {
+    font-size: larger;
+}
+
+.customerBar {
+  display: flex;
+  justify-content: space-around; /* Adjust as needed */
+  align-items: center;
+}
+
+.customerBox {
     display: flex;
-    justify-content: center;    
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  
+
+.customerBox p {
+    border: 5px solid hsla(0, 0%, 0%, 0.911);
+    width: 200px;
+    border-top: none;
+    margin: 0;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.customerPic {
+  width: 200px;
+  height: 200px;
+  margin: 30px;
+  margin-bottom: 0;
+  border: 5px solid hsla(0, 0%, 0%, 0.911);
 }
 
 .sneedCardForm {
-    background-color: hsla(0, 0%, 25%, 0.911);
-    width: 60%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  background-color: hsla(0, 0%, 25%, 0.911);
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .sneedCardForm form {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
+#sneedSubmit {
+    background-color: #000;
+    color: white;
+    margin: 10px;
+}
 
 .sneedCardContainer {
-    width: 60%;
-    background-color: hsla(0, 0%, 50%, 0.911);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    flex-grow: 1; 
+    padding-top: 20px;
+  width: 60%;
+  background-color: hsla(0, 0%, 50%, 0.911);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-grow: 1;
 }
 
 .sneedCard {
-    padding-left: 3px;
-    width: 505px;
-    height: 247px;
-    display: flex;
-    background-image: url(images/sfs_outside.png);
-    color: white;
-    text-shadow:
-    -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
+  padding-left: 3px;
+  width: 505px;
+  height: 247px;
+  display: flex;
+  background-image: url(images/sfs_outside.png);
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
     1px 1px 0 #000;
 }
 
 .cardLeft {
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
 }
 
 .cardLeft p {
-    width: 100px;
+  width: 100px;
 }
 
-
 #imgSquare {
-    width: 100px;
-    height: 100px;
-    margin: 5px;
+  width: 100px;
+  height: 100px;
+  margin: 5px;
 }
 
 #registerName {
-    font-size: 20px;
-    text-wrap: nowrap;
+  font-size: 20px;
+  text-wrap: nowrap;
+}
+
+.sneedCardSaveButton {
+    background-color: #000;
+    color: white;
+    margin: 10px;
 }
 
 .footerContainer {
-    background-color: rgba(0, 0, 0, 0.911);
-    width: 60%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  background-color: rgba(0, 0, 0, 0.911);
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .chuckandal {
-
-    width: 35px;
-    height: 35px;
-    margin-left: 20px;
+  width: 35px;
+  height: 35px;
+  margin-left: 20px;
 }

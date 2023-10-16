@@ -9,14 +9,33 @@
   <body>
     <div class="mainContainer">
       <div class="headerContainer">
-        <img id="imgSquare" src="images/Feed Logo.png">
-        <h1>Sneed's Feed+</h1>
+        <img id="imgSquare" src="images/Feed Logo.png" />
+        <h1 class="headerText">Sneed's Feed+</h1>
       </div>
       <div class="infoBar">
-        <p>Why should you sign up for Feed+?</p>
-        <p>just ask our satisfied customers!</p>
-        <!-- divs for characters, when clicked they show text -->
+        <h1>Why should you sign up for Feed+?</h1>
+        <p class="customerText">Just ask our satisfied customers!</p>
+        <div class="customerBar">
+          <div class="customerBox">
+            <img
+              class="customerPic"
+              id="customerPicHomer"
+              src="images/homer.jpg"
+            />
+            <p>They uhh... sold me some stuff</p>
+          </div>
+          <div class="customerBox">
+            <img
+              class="customerPic"
+              id="customerPicBarney"
+              src="images/barney.jpg"
+            />
+            <p>What? Who? You need what?</p>
+          </div>
+        </div>
       </div>
+      
+      
       <div class="sneedCardForm">
         <p>Register today! Get your sneed card below!</p>
         <form class="sneedRegister" id="sneedForm">
@@ -25,21 +44,23 @@
           <label for="lname">Last Name</label>
           <input type="text" id="lname" name="lname" />
           <input type="submit" id="sneedSubmit" value="Get My Feed+ Card!" />
-      </form>
-      
+        </form>
       </div>
       <div class="sneedCardContainer">
         <div class="sneedCard">
           <div class="cardLeft">
-            <img id="imgSquare" src="images/Feed Logo.png">
+            <img id="imgSquare" src="images/Feed Logo.png" />
             <p id="registerName">Your Name</p>
             <p>Official Feed+ Member</p>
           </div>
-          <div class="cardRight">
-          </div>
+          <div class="cardRight"></div>
         </div>
-        <button class="sneedCardSaveButton" id="saveButton">Save My Sneed Card!</button>
-        <a id="downloadLink" style="display: none" download="sneed_card.png">Download Sneed Card</a>
+        <button class="sneedCardSaveButton" id="saveButton">
+          Save My Sneed Card!
+        </button>
+        <a id="downloadLink" style="display: none" download="sneed_card.png"
+          >Download Sneed Card</a
+        >
       </div>
       <div class="footerContainer">
         <p>Copyright Sneeds Feed & Seed!</p>
@@ -48,6 +69,5 @@
     </div>
     <script src="html2canvas.js"></script>
     <script src="sneedcard.js"></script>
-    
   </body>
 </html>
